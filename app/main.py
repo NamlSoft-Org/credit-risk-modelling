@@ -2,8 +2,9 @@ import streamlit as st
 from prediction_helper import predict  # Ensure this is correctly linked to your prediction_helper.py
 
 # Set the page configuration and title
-st.set_page_config(page_title="Lauki Finance: Credit Risk Modelling", page_icon="📊")
-st.title("Lauki Finance: Credit Risk Modelling")
+st.set_page_config(page_title="TAN  Finance: Credit Risk AI Modelling", page_icon="icon-40.png")
+st.title("TAN Finance: Credit Risk Modelling")
+st.image("logo.png", width=100, caption="TanGlobus AI")
 
 # Create rows of three columns each
 row1 = st.columns(3)
