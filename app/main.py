@@ -3,7 +3,7 @@ from prediction_helper import predict  # Ensure this is correctly linked to your
 
 # Set the page configuration and title
 st.set_page_config(page_title="TAN  Finance: Credit Risk AI Modelling", page_icon="icon-40.png")
-st.image("tan-logo.png", width=100, caption="TanGlobus AI")
+st.image("../tan-logo.png", width=100, caption="TanGlobus AI")
 st.title("TAN Finance: Credit Risk Modelling")
 
 
