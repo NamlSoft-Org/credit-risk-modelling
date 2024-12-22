@@ -3,9 +3,9 @@ from prediction_helper import predict  # Ensure this is correctly linked to your
 
 # Set the page configuration and title
 st.set_page_config(page_title="TAN  Finance: Credit Risk AI Modelling", page_icon="icon-40.png")
-uploaded_file = st.file_uploader("tan-logo.png")
-if uploaded_file is not None:
-    st.image(uploaded_file)  # or process it further
+# uploaded_file = st.file_uploader("tan-logo.png")
+# if uploaded_file is not None:
+#     st.image(uploaded_file)  # or process it further
 
 st.image("tan-logo.png", width=100, caption="TanGlobus AI")
 st.title("TAN Finance: Credit Risk Modelling")
